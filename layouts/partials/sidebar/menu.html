@@ -10,14 +10,14 @@
 				<ul class="sidebar-nav">
 					{{ range .Children }}
 					<li {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }}>
-						<a href="{{ .URL }}">{{ .Name | title }}</a>
+						<a href="{{ .URL }}">{{ .Name }}</a>
 					</li>
 					{{ end }}
 				</ul>
 			{{ else }} <!-- No children -->
 				<li>
 					<a href="{{.URL}}">{{ .Pre }}
-						<span>{{ .Name | title }}</span>
+						<span>{{ .Name }}</span>
 					</a>
 				</li>
 			{{ end }} 
