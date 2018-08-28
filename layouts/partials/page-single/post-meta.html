@@ -1,5 +1,6 @@
 {{ if ne .Params.showpagemeta false }}
 <div class="post__meta">
+
     <!-- published date -->
     {{ if not .Date.IsZero }}
       <i class="fas fa-calendar-alt"></i>&nbsp;{{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}
@@ -30,5 +31,10 @@
     {{ end }}
     <br/>
     <i class="fas fa-clock"></i>&nbsp;ok. {{ .ReadingTime }} min.
+    <!-- author -->
+    {{ with .Params.author}}
+    <br/>
+    <i class="fas fa-user-alt"></i>&nbsp;{{ . }}
+    {{ end }}
 </div>
 {{ end }}
