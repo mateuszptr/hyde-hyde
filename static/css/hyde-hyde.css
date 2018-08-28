@@ -711,4 +711,10 @@ a.badge-tag {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536; }
 
+sup.footnote-ref {
+  line-height: 0; }
+
+a.footnote-return {
+  display: none; }
+
 /*# sourceMappingURL=hyde-hyde.css.map */
