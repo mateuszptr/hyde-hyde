@@ -12,7 +12,7 @@
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Draft }}<sup> <i class="fas fa-pen-square fa-xs"></i></sup>{{ end }}
         </span>
         <span class="item__date">
-          <i class="fas fa-clock"></i>&nbsp;{{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}
+          <i class="fas fa-calendar-alt"></i>&nbsp;{{ .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") }}
         </span>
         {{ with .Params.author }}
         <span class="item__date">
