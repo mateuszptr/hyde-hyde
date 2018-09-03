@@ -18,6 +18,7 @@ $cyan: #75b5aa;
 $blue: #268bd2;
 $brown: #8f5536;
 $tulpish: #1c7771;
+$dark-green: darken($green, 10%);
 
 //https://www.client9.com/css-system-font-stack-sans-serif-v3
 $root-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Droid Sans", "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
@@ -49,8 +50,8 @@ $code-background-color: #f9f2f4;
 $code-line-height: 1.4;
 
 // links
-$sidebar-link-color: $green;
-$link-color: $green;
+$sidebar-link-color: $dark-green;
+$link-color: $dark-green;
 $link-hover-color: $body-color;
 
 // section

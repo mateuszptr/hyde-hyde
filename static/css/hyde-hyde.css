@@ -23,7 +23,7 @@ body {
   -ms-text-size-adjust: 100%; }
 
 a {
-  color: #90a959;
+  color: #748847;
   text-decoration: none; }
   a:hover, a:focus {
     text-decoration: underline; }
@@ -193,7 +193,7 @@ kbd {
   white-space: nowrap; }
 
 a {
-  color: #90a959;
+  color: #748847;
   text-decoration: none;
   word-wrap: break-word; }
   a.sidebar-nav-item:hover {
@@ -240,9 +240,9 @@ a {
     color: #f9f9f9;
     border: none; }
     .sidebar a:hover {
-      color: #90a959; }
+      color: #748847; }
     .sidebar a:focus {
-      color: #90a959; }
+      color: #748847; }
   .sidebar .sidebar-about {
     text-align: center; }
   .sidebar .author-image {
