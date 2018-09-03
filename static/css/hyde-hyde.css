@@ -23,7 +23,7 @@ body {
   -ms-text-size-adjust: 100%; }
 
 a {
-  color: #268bd2;
+  color: #90a959;
   text-decoration: none; }
   a:hover, a:focus {
     text-decoration: underline; }
@@ -193,7 +193,7 @@ kbd {
   white-space: nowrap; }
 
 a {
-  color: #268bd2;
+  color: #90a959;
   text-decoration: none;
   word-wrap: break-word; }
   a.sidebar-nav-item:hover {
