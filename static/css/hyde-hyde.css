@@ -252,8 +252,6 @@ a {
 .sidebar-nav {
   text-align: center;
   list-style: none;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
   padding-left: 0; }
 
 .sidebar-nav-item {
@@ -564,9 +562,20 @@ a.badge-tag {
   max-width: 100%;
   height: auto; }
 
-@media (min-width: 320px) and (max-width: 768px) {
-  .sidebar li {
-    padding: .1rem 0; }
+@media (min-width: 0px) and (max-width: 768px) {
+  .sidebar {
+    padding: 0.5rem 0.5rem; }
+    .sidebar .site__title {
+      display: none; }
+    .sidebar li {
+      padding: .1rem 0; }
+    .sidebar .author-image img {
+      margin-bottom: 0.5rem; }
+    .sidebar .copyright {
+      font-size: 0.5rem;
+      margin: 0; }
+    .sidebar .sidebar-nav {
+      margin: 0.5rem; }
 
   .hidden-tablet {
     display: none; } }

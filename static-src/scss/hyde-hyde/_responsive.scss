@@ -1,11 +1,31 @@
 // mobile ~320..480px
 // 320px ~ 16rem/16px ~ 18.8235/17px ~ 17.7778/18px
 // 480px ~ 30rem/16px ~ 28.2353rem/17px ~ 26.6667rem/18px
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
   .sidebar {
+    padding: 0.5rem 0.5rem;
+
+    .site__title {
+      display: none;
+    }
+
     li {
       padding: .1rem 0;
     }
+
+    .author-image img {
+      margin-bottom: 0.5rem;
+    }
+
+    .copyright {
+      font-size: 0.5rem;
+      margin: 0;
+    }
+
+    .sidebar-nav {
+      margin: 0.5rem;
+    }
+
   }
   .hidden-tablet {
     display: none;
